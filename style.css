@@ -1,0 +1,16 @@
+#header{
+    color:steelblue;
+    background-color: powderblue;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#footer{
+    color:steelblue;
+    background-color: powderblue;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Project 106</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+    </head>
+    <body class="bg-info">
+        <center>
+            <div id="header">
+        <h1>Sound Controlled Animals</h1>
+        <label>Note: Lay different sounds like barking, roaring</label>
+    </div><br>
+    <div class="container">
+        <div>
+            <br>
+            <br><br><br><br>
+            <button class="btn btn-info" onclick="start()">Start</button><br><br>
+            <h4>Detected: <span id="animal"></span></h4><br>
+            <h4>Detected Voice of: <span id="accu"></span></h4>
+            <br>
+            <img id="animalimg">
+            <br>
+        </div>
+    </div>
+        <br>
+        <img src="ear.png" width="300" height="300" id="soundimg">
+        <div id="footer">
+        <h3>Developed by Adhrit Das</h3>
+    </div>
+    </center>
+
+    <script src="main.js"></script>
+    </body>
+</html>
